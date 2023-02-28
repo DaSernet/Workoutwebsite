@@ -1,0 +1,55 @@
+﻿body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    width: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.exercise {
+    padding-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    padding-top: 50px;
+}
+.center {
+    padding: 70px 0;
+    text-align: center;
+}
+
+    .exercise input[type=checkbox] {
+        margin-right: 10px;
+        transform: scale(1.2);
+    }
+
+    .exercise label {
+        font-size: 1.3rem;
+        white-space: normal;
+        margin-bottom: 0;
+        flex: 1;
+    }
+.exercise ol {
+    list-style-type: none;
+    font-size: 1.1rem;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+    .exercise p {
+        font-size: 1.1rem;
+        margin-bottom: 0;
+        flex: 1;
+    }
